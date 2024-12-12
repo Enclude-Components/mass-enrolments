@@ -1,14 +1,16 @@
-# Mass Enrolment Screen Flow
-This is a template for creating metadata repositories with a "Deploy to Salesforce" button, courtesy of [afawsett](https://github.com/afawcett/githubsfdeploy)
-
-## How to Use
-- Click "Use this template" -> "Create a new repository"
-- Name the repository and take note of the name
-- Populate the force-app\main\default directory with metadata you wish to deploy
-- Update the URL of the button below, replacing {REPOSITORY-NAME} with the name of your Github repo
+# Mass Enrolment Screen Flow/List Button
+Provides functionality for the mass enrolment of selected Contacts from a list view to an eCASS Programme. 
 
 ## Deploy
 <a href="https://githubsfdeploy.herokuapp.com?owner=Enclude-Components&repo=mass-enrolments&ref=main">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
+
+***After deploying, you will need add the 'Enrol in Programme' button to you Contacts List View Button Layout***
+
+## Contents
+- Flow 
+  - Screen List View Create Enrolments
+- List Button 
+  - Enrol in Programme
