@@ -1,5 +1,6 @@
 # Mass Enrolment Screen Flow/List Button
 Provides functionality for the mass enrolment of selected Contacts from a list view to an eCASS Programme. 
+Note: Does not link the newly created enrolments to Referrals.
 
 ## Deploy
 <a href="https://githubsfdeploy.herokuapp.com?owner=Enclude-Components&repo=mass-enrolments&ref=main">
